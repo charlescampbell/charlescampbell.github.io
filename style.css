@@ -42,7 +42,7 @@ ul,
 span,
 li,
 img,
-inpot,
+input,
 button {
   margin: 0;
   padding: 0;
@@ -96,6 +96,16 @@ h5 {
 h6 {
   font-size: 0.9em;
   letter-spacing: 1px;
+}
+
+.inverted-link {
+  color: #01afff;
+  font-weight: bold;
+}
+
+.inverted-link:hover {
+  color: #333;
+  font-weight: bold;
 }
 
 a,
@@ -348,7 +358,7 @@ b.max-bold {
   width: 3rem;
 }
 
-.tool-language {
+.tool-ruby {
   color: red;
 }
 
@@ -366,6 +376,46 @@ b.max-bold {
 
 .tool-app {
   color: #7300FF;
+}
+
+.tool-typescript {
+  color: #2F74C0;
+}
+
+.tool-moonpull {
+  color: #073C63;
+}
+
+.tool-lambda {
+  color: #D36413;
+}
+
+.tool-terraform {
+  color: #5C4EE8;
+}
+
+.tool-kinesis {
+  color: #d3b14c;
+}
+
+.tool-dynamodb {
+  color: #206EB4;
+}
+
+.tool-sqs {
+  color: #816627;
+}
+
+.tool-graphql {
+  color: #DD34A6;
+}
+
+.tool-sql {
+  color: #D57131;
+}
+
+.tool-rabbitmq {
+  color: #FF6600;
 }
 
 .project-links {
